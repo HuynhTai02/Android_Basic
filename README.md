@@ -16,12 +16,14 @@
 <img src="https://user-images.githubusercontent.com/106971476/192126198-658eadf6-0e37-48e8-b10b-cc34256fc670.png"width="150" /> 
 <img src="https://user-images.githubusercontent.com/106971476/192126208-3c8fe1d5-439b-4e3d-af16-80abf7ecb134.png"width="150" /> 
 </p>
+
 ## ANDROID UI LAYOUTS
 <p>
 <img src="https://user-images.githubusercontent.com/106971476/193454576-6aedd49a-a476-4cc7-bc5b-30d2821f2a77.png"width="200" />
 </p>
+
 ## WEEK 2
-1. Common Attributes View:
+1. Common Attributes View
     + layout_width and layout_height
     + background
     + gravity
@@ -29,12 +31,12 @@
     + margin
     + padding
     + visibility
-2. LinearLayout:
+2. LinearLayout
     + orientation = "vertical" or orientation ="horizontal"
 3. Demo_LinearLayout
 <p>
 <img src="https://user-images.githubusercontent.com/106971476/193455572-a21c60e9-f162-4698-8236-816fb0c25fab.PNG"width="150"alt ="LinearLayout(vertical)" />
-<img src="https://user-images.githubusercontent.com/106971476/193455597-f9fe0c83-931f-4fa5-ab83-72eb6566e42a.PNG"width="150"alt ="LinearLayout(horizontal) />
+<img src="https://user-images.githubusercontent.com/106971476/193455597-f9fe0c83-931f-4fa5-ab83-72eb6566e42a.PNG"width="150"alt ="LinearLayout(horizontal)" />
 </p>
 4. Practice
 <p> 
