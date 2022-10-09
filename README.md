@@ -51,7 +51,7 @@
 2. Practice FrameLayout
 <p>
 <img src="https://user-images.githubusercontent.com/106971476/194761588-8ee50b72-b68a-44e8-9959-920c0ac9bca1.png"width="150" /> 
-<img src="https://user-images.githubusercontent.com/106971476/194761354-02c86851-7080-4e04-a0ce-69967c7359dc.PNG"width="150" /> 
+<img src="https://user-images.githubusercontent.com/106971476/194768949-1ff0fd51-a920-4846-a317-4aeda981afd5.PNG"width="150" /> 
 </p>
 3. RelativeLayout
 <p> 
