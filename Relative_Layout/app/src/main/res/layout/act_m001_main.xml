@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_1st" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="@string/txt_2nd" />
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/txt_3rd" />
+
+    <Button
+        android:id="@+id/bt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/txt_4th" />
+
+    <Button
+        android:backgroundTint="#F60E0E"
+        android:id="@+id/bt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/txt_5th" />
+
+    <Button
+        android:backgroundTint="@color/teal_200"
+        android:id="@+id/bt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bt5"
+        android:layout_toStartOf="@+id/bt5"
+        android:text="@string/txt_6th" />
+
+    <Button
+        android:backgroundTint="@color/teal_200"
+        android:id="@+id/bt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bt5"
+        android:layout_toEndOf="@+id/bt5"
+        android:text="@string/txt_7th" />
+
+    <Button
+        android:backgroundTint="@color/teal_200"
+        android:id="@+id/bt8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt5"
+        android:layout_toStartOf="@+id/bt5"
+        android:text="@string/txt_8th" />
+
+    <Button
+        android:backgroundTint="@color/teal_200"
+        android:id="@+id/bt9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt5"
+        android:layout_toEndOf="@+id/bt5"
+        android:text="@string/txt_9th" />
+
+</RelativeLayout>

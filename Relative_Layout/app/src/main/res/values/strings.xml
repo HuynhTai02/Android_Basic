@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Relative_Layout</string>
+    <string name="txt_tap_content_here">TOP CONTENT HERE</string>
+    <string name="txt_1st">1st</string>
+    <string name="txt_2nd">2nd</string>
+    <string name="txt_3rd">3rd</string>
+    <string name="txt_bottom_content_here">BOTTOM CONTENT HERE</string>
+    <string name="txt_4th">4th</string>
+    <string name="txt_5th">5th</string>
+    <string name="txt_6th">6th</string>
+    <string name="txt_7th">7th</string>
+    <string name="txt_8th">8th</string>
+    <string name="txt_9th">9th</string>
+</resources>
