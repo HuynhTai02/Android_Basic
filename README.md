@@ -67,7 +67,7 @@
 <img src="https://user-images.githubusercontent.com/106971476/194768808-50f251b0-c2af-4cd7-a32f-354229a327d3.png"width="150" /> 
 </p>
 * Restaurant Booking Uikit
-   + Link:https://www.figma.com/file/VRGcPtgz1qdfb49CjPlW3T/Restaurant-Booking-Uikit-(Community)?node-id=71%3A251
+    + Link: https://www.figma.com/file/VRGcPtgz1qdfb49CjPlW3T/Restaurant-Booking-Uikit-(Community)?node-id=71%3A251
     
 <p> 
 <img src="https://user-images.githubusercontent.com/106971476/195638603-f6501a82-d1d7-4ada-922d-5edb596da4d2.png"width="150" /> 
