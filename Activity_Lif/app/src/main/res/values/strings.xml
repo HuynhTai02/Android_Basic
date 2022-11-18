@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Activity_Lif</string>
+    <string name="txt_kid_animal">Kid Animal</string>
+    <string name="txt_sign_in">Sign In</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="txt_forgot_password">Forgot password?</string>
+    <string name="txt_or_signup_with">or signup with</string>
+    <string name="txt_loading">Loading...</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_click_here_for_register">Click here for register</string>
+</resources>

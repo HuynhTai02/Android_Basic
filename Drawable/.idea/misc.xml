@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Drawable/app/src/main/res/drawable/bg_bitmap.xml" value="0.1405" />
+        <entry key="..\:/Drawable/app/src/main/res/drawable/bg_edittext.xml" value="0.2" />
+        <entry key="..\:/Drawable/app/src/main/res/drawable/bg_load.xml" value="0.1545" />
+        <entry key="..\:/Drawable/app/src/main/res/drawable/bg_login2.xml" value="0.1685" />
+        <entry key="..\:/Drawable/app/src/main/res/drawable/bg_process.xml" value="0.1405" />
+        <entry key="..\:/Drawable/app/src/main/res/drawable/bg_shape1.xml" value="0.2" />
+        <entry key="..\:/Drawable/app/src/main/res/drawable/bg_state.xml" value="0.1405" />
+        <entry key="..\:/Drawable/app/src/main/res/drawable/bt_login2.xml" value="0.1685" />
+        <entry key="..\:/Drawable/app/src/main/res/drawable/bt_rec2.xml" value="0.1685" />
+        <entry key="..\:/Drawable/app/src/main/res/drawable/ic_cam.xml" value="0.1685" />
+        <entry key="..\:/Drawable/app/src/main/res/drawable/ic_face.xml" value="0.1685" />
+        <entry key="..\:/Drawable/app/src/main/res/drawable/ic_load.xml" value="0.1545" />
+        <entry key="..\:/Drawable/app/src/main/res/drawable/rec.xml" value="0.1885" />
+        <entry key="..\:/Drawable/app/src/main/res/drawable/rec_email.xml" value="0.1545" />
+        <entry key="..\:/Drawable/app/src/main/res/drawable/rec_login.xml" value="0.1545" />
+        <entry key="..\:/Drawable/app/src/main/res/drawable/rotate_shape1.xml" value="0.1" />
+        <entry key="..\:/Drawable/app/src/main/res/layout/act_m000_drawable.xml" value="0.1" />
+        <entry key="..\:/Drawable/app/src/main/res/layout/act_m001_load.xml" value="0.20244565217391305" />
+        <entry key="..\:/Drawable/app/src/main/res/layout/act_m002_login.xml" value="0.2" />
+        <entry key="..\:/Drawable/app/src/main/res/layout/act_m003_Register.xml" value="0.1" />
+        <entry key="..\:/Drawable/app/src/main/res/layout/act_m003_register.xml" value="0.2" />
+        <entry key="..\:/Drawable/app/src/main/res/layout/act_m004_login2.xml" value="0.2" />
+        <entry key="..\:/Drawable/app/src/main/res/layout/act_m005_signup2.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

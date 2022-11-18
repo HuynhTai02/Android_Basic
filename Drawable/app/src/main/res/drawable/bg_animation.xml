@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/ic_0_bat"
+        android:duration="500" />
+    <item
+        android:drawable="@drawable/ic_20_bat"
+        android:duration="500" />
+    <item
+        android:drawable="@drawable/ic_40_bat"
+        android:duration="500" />
+    <item
+        android:drawable="@drawable/ic_60_bat"
+        android:duration="500" />
+    <item
+        android:drawable="@drawable/ic_80_bat"
+        android:duration="500" />
+    <item
+        android:drawable="@drawable/ic_full_bat"
+        android:duration="500" />
+
+</animation-list>

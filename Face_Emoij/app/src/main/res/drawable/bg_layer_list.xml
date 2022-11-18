@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:right="50dp"
+        android:top="-50dp">
+        <rotate android:fromDegrees="340">
+            <bitmap
+                android:gravity="top"
+                android:src="@drawable/ic_he_he" />
+        </rotate>
+    </item>
+    <item
+        android:left="190dp"
+        android:top="-10dp">
+        <rotate android:fromDegrees="360">
+            <bitmap
+                android:gravity="top"
+                android:src="@drawable/ic_he_he" />
+        </rotate>
+    </item>
+    <item android:left="400dp">
+        <bitmap
+            android:gravity="bottom"
+            android:src="@drawable/ic_he_he" />
+    </item>
+    <item
+        android:bottom="-20dp"
+        android:left="80dp">
+        <bitmap
+            android:gravity="bottom"
+            android:src="@drawable/ic_he_he" />
+    </item>
+    <item
+        android:bottom="-60dp"
+        android:right="600dp">
+        <rotate android:fromDegrees="310">
+            <bitmap
+                android:gravity="bottom"
+                android:src="@drawable/ic_he_he" />
+        </rotate>
+    </item>
+</layer-list>

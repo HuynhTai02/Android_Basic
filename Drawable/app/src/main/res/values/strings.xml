@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Drawable</string>
+    <string name="txt_click_me">Click me</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_forgot_password">Forgot Password?</string>
+    <string name="txt_don_t_have_an_account">Don\'t have an account?</string>
+    <string name="txt_register">Register</string>
+    <string name="txt_fullname">Fullname</string>
+    <string name="txt_phone_number">Phone Number</string>
+    <string name="txt_already_a_member">Already a member?</string>
+    <string name="txt_welcome_back">Welcome Back</string>
+    <string name="txt_login_back_into_your_account">Login back into your account</string>
+    <string name="txt_e_mail">E-mail</string>
+    <string name="txt_welcome">Welcome</string>
+    <string name="txt_signup_into_your_account">Signup into your account</string>
+    <string name="txt_signup">Signup</string>
+    <string name="txt_already_have_an_account">Already have an account?</string>
+    <string name="txt_log_in">Log In</string>
+    <string name="txt_don_t_have_an_account_yet">Don\'t have an account yet?</string>
+    <string name="txt_join_now">Join Now</string>
+</resources>
