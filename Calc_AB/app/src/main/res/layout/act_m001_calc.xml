@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="25dp"
+    android:layout_marginTop="50dp"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".act_m000_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/txt_calculator"
+        android:textColor="#03A9F4"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tv_ans"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints="Answer"
+        android:background="#03A9F4"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:hint="@string/txt_answer"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="25sp"
+        tools:ignore="TextViewEdits" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_people_calc"
+        tools:ignore="ContentDescription" />
+
+</LinearLayout>

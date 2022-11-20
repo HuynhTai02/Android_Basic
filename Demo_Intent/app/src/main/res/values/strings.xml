@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Demo_Intent</string>
+    <string name="txt_action_call">ACTION CALL</string>
+    <string name="txt_enter_number_phone">Enter Number Phone</string>
+    <string name="txt_call">Call</string>
+    <string name="txt_sms">Sms</string>
+</resources>
