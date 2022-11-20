@@ -40,7 +40,7 @@
 2. LinearLayout
     + orientation = "vertical" or orientation ="horizontal"
 3. Table Row
-4.Practice
+4. Practice
 <p> 
 <img src="https://user-images.githubusercontent.com/106971476/193455656-a93a5cdf-0d80-40b2-ab71-35c7779717f9.PNG"width="150" /> 
 <img src="https://user-images.githubusercontent.com/106971476/193455667-610c44c0-5737-445e-a258-fa9efac754cb.PNG"width="150" /> 
@@ -99,7 +99,7 @@
 <img src="https://user-images.githubusercontent.com/106971476/202648604-6e1de7d8-54e7-4f33-99a2-39843160a284.png"width="150" /> 
 </p>
 
-##WEEK8
+## WEEK8
 1. Activity Lifecycle
 2. Intent Explicit
     + Send and receive string
