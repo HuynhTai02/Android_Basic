@@ -1,0 +1,8 @@
+DIFFERENT BETWEEN setOnItemClickListener and setOnItemSelectedListener in ListView
+<>The item is clicked (single selection)
+  setOnItemClickListener:Register a callback to be invoked when an item in this AdapterView has been clicked.
+  It always return true.
+<>The item is selected (used in multiple selection) 
+  - Register a callback to be invoked when an item in this AdapterView has been clicked.it return true and also false.
+  - It is just force to user that select an option.Select an item and go next just kind of that
+..............

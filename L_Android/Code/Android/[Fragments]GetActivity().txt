@@ -1,0 +1,1 @@
+getActivity is a function, it returns an Activity. It's a function of a Fragment, and returns the Activity the fragment is attached to. It's null if no Activity is attached to the fragment.

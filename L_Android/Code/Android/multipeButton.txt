@@ -1,0 +1,13 @@
+ implements OnClickListener {
+ btnBegin.setOnClickListener(this);
+ btnExit.setOnClickListener(this); 
+}//onCreate
+@Override
+public void onClick(View v) {
+if (v.getId() == btnBegin.getId()) {
+txtMsg.setText("1-You clicked the 'BEGIN' button");
+}
+if (v.getId() == btnExit.getId()) {
+txtMsg.setText("2-You clicked the 'EXIT' button");
+}
+}//onClick
