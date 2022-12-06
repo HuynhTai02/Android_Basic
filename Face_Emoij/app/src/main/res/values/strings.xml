@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Face_Emoij</string>
+    <string name="txt_fun">fun</string>
+    <string name="txt_happy">happy</string>
+    <string name="txt_love">love</string>
+    <string name="txt_make_fun">make_fun</string>
+    <string name="txt_whoa">whoa</string>
+    <string name="txt_yahoo">yahoo</string>
+    <string name="txt_sulk">sulk</string>
+    <string name="txt_sick">sick</string>
+    <string name="txt_hurt">hurt</string>
+    <string name="txt_alert">alert</string>
+    <string name="txt_close_app">Close app</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_dont">Don\'t</string>
 </resources>
