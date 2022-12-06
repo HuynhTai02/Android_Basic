@@ -9,4 +9,5 @@
     <string name="txt_mul">Mul</string>
     <string name="txt_div">Div</string>
     <string name="txt_answer">Answer</string>
+    <string name="txt_tra_ve_ket_qua">Trả về kết quả</string>
 </resources>

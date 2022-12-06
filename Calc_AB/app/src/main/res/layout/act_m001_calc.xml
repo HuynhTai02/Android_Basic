@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginHorizontal="25dp"
-    android:layout_marginTop="50dp"
+    android:layout_marginTop="20dp"
     android:gravity="center|top"
     android:orientation="vertical"
     tools:context=".act_m000_main">
@@ -34,6 +34,14 @@
         android:textColorHint="@color/white"
         android:textSize="25sp"
         tools:ignore="TextViewEdits" />
+
+    <Button
+        android:id="@+id/bt_tra_kq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFEB3B"
+        android:text="@string/txt_tra_ve_ket_qua"
+        android:textColor="@color/black" />
 
     <ImageView
         android:layout_width="wrap_content"

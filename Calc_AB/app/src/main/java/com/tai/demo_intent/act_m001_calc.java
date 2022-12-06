@@ -9,6 +9,7 @@ import com.tai.demo_intent.databinding.ActM001CalcBinding;
 
 public class act_m001_calc extends AppCompatActivity {
 
+    public static final String KEY_RESULT = "KEY_RESULT";
     private ActM001CalcBinding binding;
 
     @Override
@@ -48,5 +49,21 @@ public class act_m001_calc extends AppCompatActivity {
         }
 
         binding.tvAns.setText(String.format("%s %s %s = %s", ab.getA(), type, ab.getB(), rs));
+        binding.btTraKq.setOnClickListener(v -> returnResult(binding.tvAns.getText().toString()));
+    }
+
+    //C1_B2
+    private void returnResult(String result) {
+        Intent data = new Intent();
+        data.putExtra(KEY_RESULT, result);
+        setResult(RESULT_OK, data);
+        finish();
+    }
+
+    //Không trả về dữ liệu
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        setResult(RESULT_CANCELED);
     }
 }
