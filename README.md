@@ -47,7 +47,7 @@
 <img src="https://user-images.githubusercontent.com/106971476/193455678-338ab38a-6448-42fd-b9ce-13cae3f3e98b.PNG"width="150" /> 
 </p> 
 5. FrameLayout
-5.1. Practice
+5. Practice
 <p>
 <img src="https://user-images.githubusercontent.com/106971476/201472785-aff197a4-3b22-4d99-9d72-78e1bbdd4310.PNG"width="150" /> 
 <img src="https://user-images.githubusercontent.com/106971476/201472790-908e491d-dba1-48bf-96a0-623ba2e23d21.PNG"width="150" /> 
@@ -57,7 +57,7 @@
 <img src="https://user-images.githubusercontent.com/106971476/194761341-99f72d8c-71e2-4a46-aa9d-409ac73b320e.PNG"width="150" /> 
 <img src="https://user-images.githubusercontent.com/106971476/194761354-02c86851-7080-4e04-a0ce-69967c7359dc.PNG"width="150" /> 
 </p>
-6.1. Practice 
+6. Practice 
 <p> 
 <img src="https://user-images.githubusercontent.com/106971476/194767310-99fc1a38-ae22-459c-a129-80576d1dd879.PNG"width="150" /> 
 <img src="https://user-images.githubusercontent.com/106971476/194767326-f098cc05-77f4-4328-9988-515dc59059c1.PNG"width="150" /> 
@@ -99,7 +99,8 @@
 <img src="https://user-images.githubusercontent.com/106971476/202648604-6e1de7d8-54e7-4f33-99a2-39843160a284.png"width="150" /> 
 </p>
 
-## WEEK8
+## ACTIVITY-INTENT
+## WEEK8, WEEK9
 1. Activity Lifecycle
 2. Intent Explicit
     + Send and receive string
@@ -111,8 +112,13 @@
     + ACTION_VIEW
     + ACTION_SENDTO
     + ACTION_CALL
-4. Practice
+4. ActivityForResult
+5. Practice
 <p> 
 <img src="https://user-images.githubusercontent.com/106971476/202865047-9a8dd1f9-4ce9-45db-80c9-3e15d4f618ce.png"width="150" /> 
 <img src="https://user-images.githubusercontent.com/106971476/202865052-5041fb50-eea9-4217-b6aa-5ee0b264d5af.png"width="150" />  
 </p>
+
+## TOAST-ALERTDIALOG-DIALOG
+1. Use Toast-AlertDialog-Dialog
+2. Custom Toast-AlertDialog-Dialog
