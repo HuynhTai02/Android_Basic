@@ -100,7 +100,7 @@
 </p>
 
 ## ACTIVITY-INTENT
-## WEEK8, WEEK9
+## WEEK8, WEEK 9
 1. Activity Lifecycle
 2. Intent Explicit
     + Send and receive string
@@ -119,6 +119,16 @@
 <img src="https://user-images.githubusercontent.com/106971476/202865052-5041fb50-eea9-4217-b6aa-5ee0b264d5af.png"width="150" />  
 </p>
 
+## WEEK 10
 ## TOAST-ALERTDIALOG-DIALOG
 1. Use Toast-AlertDialog-Dialog
 2. Custom Toast-AlertDialog-Dialog
+## ANIMATION
+ + Object Animation
+ + Tween Animation: alpha, rotate, translate, scale
+
+## WEEK 11, WEEK 12
+## FRAGMENTS
+1. Fragment Lifecycle
+2. Fragment Manager 
+
