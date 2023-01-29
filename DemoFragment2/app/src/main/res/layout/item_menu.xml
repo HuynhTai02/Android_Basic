@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/purple_700"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/iv_list"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:src="@drawable/ic_list"
+        app:tint="@color/white"
+        tools:ignore="ContentDescription" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/iv_detail"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:src="@drawable/ic_detail"
+        app:tint="@color/purple_200"
+        tools:ignore="ContentDescription" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/iv_setting"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:src="@drawable/ic_setting"
+        app:tint="@color/purple_200"
+        tools:ignore="ContentDescription" />
+
+
+</LinearLayout>
