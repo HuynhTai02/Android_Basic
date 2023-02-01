@@ -2,6 +2,9 @@ package com.tai.demothread;
 
 import android.os.AsyncTask;
 
+//MTASK là một cấu trúc tối ưu hóa AsyncTask 
+//Có thể xử lý nhiều AsyncTask dễ dàng nhờ vào key.
+
 public final class MTask extends AsyncTask<Object, Object, Boolean> {
     private final String key;
     private final OnCallBack callBack;
@@ -11,12 +14,7 @@ public final class MTask extends AsyncTask<Object, Object, Boolean> {
         this.callBack = callBack;
     }
 
-    @Override
-    protected Boolean doInBackground(Object... params) {
-        return (Boolean) callBack.execTask(key, params == null ? null : params[0], this);
-    }
-
-    public void requestUI(Object data){
+    public void requestUI(Object data) {
         publishProgress(data);
     }
 
@@ -26,13 +24,18 @@ public final class MTask extends AsyncTask<Object, Object, Boolean> {
     }
 
     @Override
-    protected void onPostExecute(Boolean value) {
-        callBack.completeTask(key, value);
+    protected Boolean doInBackground(Object... params) {
+        return (Boolean) callBack.execTask(key, params == null ? null : params[0], this);
     }
 
     @Override
     protected void onProgressUpdate(Object... data) {
         callBack.updateUI(key, data[0]);
+    }
+
+    @Override
+    protected void onPostExecute(Boolean value) {
+        callBack.completeTask(key, value);
     }
 
     public void start(Object data) {
@@ -67,7 +70,7 @@ public final class MTask extends AsyncTask<Object, Object, Boolean> {
             //do nothing
         }
 
-        default void cancelTask(String key){
+        default void cancelTask(String key) {
             //do nothing
         }
     }
