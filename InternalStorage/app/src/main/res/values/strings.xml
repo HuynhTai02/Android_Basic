@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">InternalStorage</string>
+    <string name="txt_content">Lúc bé, nghỉ học là chuyện lạ. Lớn lên mới biết, chuyện lạ là đi học. Lúc bé, tưởng đến trường là phải học. Lớn lên mới biết, đến trường còn được ngủ. Lúc bé, tưởng thi xong là hết. Lớn lên mới biết , sau thi còn có thi lại. Lúc bé , tưởng điểm 10 mới là giỏi. Lớn lên mới biết, chỉ 5 thôi đã quý lắm rồi. Lúc bé, tưởng càng học càng giỏi.... Lớn lên mới biết, càng học càng ngu</string>
+    <string name="txt_name">Đã hai lần rồi</string>
+    <string name="txt_next"><![CDATA[Tiếp >>]]></string>
+    <string name="txt_back">Trước</string>
+</resources>
