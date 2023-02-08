@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SharePreference</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_phone">Phone</string>
+    <string name="txt_pass">Pass</string>
+    <string name="txt_save">Ghi nhớ tài khoản</string>
+    <string name="txt_save_to_data_storage">Save to data storage</string>
+    <string name="txt_save_to_external">Save to External</string>
+</resources>
