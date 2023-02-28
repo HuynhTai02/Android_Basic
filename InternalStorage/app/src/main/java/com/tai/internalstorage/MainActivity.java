@@ -57,29 +57,44 @@ public class MainActivity extends AppCompatActivity {
     private void readStoryFiles() {
         //Tạo một đối tượng AssetManager để truy cập tới thư mục Assets.
         AssetManager assetManager = getAssets();
+        //Khởi tạo một danh sách kiểu StoryModel.
         listStory = new ArrayList<>();
         try {
+            //Mở file Con gái.txt trong thư mục story trong Assets.
             InputStream in = assetManager.open("story/Con gái.txt");
+            //Tạo đối tượng InputStreamReader để đọc dữ liệu từ InputStream với bảng mã UTF-8.
             InputStreamReader isr = new InputStreamReader(in, StandardCharsets.UTF_8);
+            //Tạo đối tượng BufferedReader để đọc dữ liệu từ InputStreamReader.
             BufferedReader reader = new BufferedReader(isr);
 
             String name = null;
+            // lưu trữ nội dung của câu chuyện
             StringBuilder content = new StringBuilder();
+            //Đọc một dòng từ file.
             String line = reader.readLine();
 
+            //Vòng lặp while để đọc tất cả các dòng của file.
             while (line != null) {
+                //Nếu name == null, tức là đang đọc tên của truyện, gán line cho name.
                 if (name == null) {
                     name = line;
-                } else if (line.contains("','0');")) {
+                }
+                //Nếu line chứa chuỗi "',0');", tức là đã đọc xong một truyện, tạo một đối tượng StoryModel với tên là name và nội dung là content, thêm vào danh sách listStory, gán name và content về null.
+                else if (line.contains("','0');")) {
                     StoryModel model = new StoryModel(name, content.toString());
                     listStory.add(model);
                     name = null;
                     content = new StringBuilder();
-                } else if (!line.isEmpty()) {
+                }
+                //Nếu line không rỗng, thì gộp nội dung của line với content
+                else if (!line.isEmpty()) {
                     content.append(line).append("\n");
                 }
+                //Đọc dòng tiếp theo trong file.
                 line = reader.readLine();
             }
+
+            //Đóng các đối tượng InputStream, InputStreamReader, BufferedReader.
             reader.close();
             isr.close();
             in.close();
@@ -164,6 +179,4 @@ public class MainActivity extends AppCompatActivity {
 //            e.printStackTrace();
 //        }
 //    }
-
-
 }
