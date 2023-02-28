@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LearnMVVM</string>
+    <string name="txt_start">START</string>
+    <string name="txt_time">10</string>
+    <string name="txthint_first_name">First Name</string>
+    <string name="txthint_last_name">Last Name</string>
+    <string name="txt_en">EN</string>
+</resources>

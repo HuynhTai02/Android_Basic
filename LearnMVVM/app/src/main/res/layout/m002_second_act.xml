@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".view.act.ActM001Main">
+
+    <EditText
+        android:id="@+id/edt_firstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="name"
+        android:hint="@string/txthint_first_name"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edt_lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="name"
+        android:hint="@string/txthint_last_name"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/sc_lang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="10dp"
+        android:text="@string/txt_en"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_fullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/purple_700"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+</LinearLayout>
