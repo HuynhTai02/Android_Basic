@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">View_Example_UTC2</string>
+    <string name="txt_film">Film+</string>
+    <string name="txt_fpt">FPT Play</string>
+    <string name="txt_clip">Clip TV</string>
+    <string name="txt_b_n_th_ch_xem_phim_ng_d_ng">Bạn thích xem phim ở ứng dụng:</string>
+    <string name="txt_confirm">CONFIRM</string>
+    <string name="txt_your_choose">Bạn đã chọn:</string>
+    <string name="nhan_xet_ve_cong_cu_android_studio">Nhận xét về công cụ Android Studio</string>
+    <string name="tuong_doi">Tương đối tốt</string>
+    <string name="tot">Tốt</string>
+    <string name="rat_tot">Rất tốt</string>
+    <string name="tuyet_voi">Tuyệt vời</string>
+    <string name="txt_vote">Bạn đã đánh giá:</string>
+</resources>

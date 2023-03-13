@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ImageActivity">
+
+    <ImageView
+        android:id="@+id/img_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_dog"
+        tools:ignore="ContentDescription" />
+
+    <TableLayout
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TableRow tools:ignore="UselessParent">
+
+            <ImageButton
+                android:id="@+id/ibt_change"
+                android:src="@drawable/ic_zoom_out"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/ibt_close"
+                android:src="@drawable/ic_close"
+                tools:ignore="ContentDescription" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

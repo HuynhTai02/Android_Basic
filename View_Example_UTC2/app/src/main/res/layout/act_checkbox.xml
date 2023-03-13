@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_b_n_th_ch_xem_phim_ng_d_ng"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/cb_film"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_film"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cb_fpt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_fpt"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cb_clip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_clip"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/txt_confirm" />
+
+    <TextView
+        android:id="@+id/tv_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/purple_700"
+        android:padding="15dp"
+        android:text="@string/txt_your_choose"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+</LinearLayout>
