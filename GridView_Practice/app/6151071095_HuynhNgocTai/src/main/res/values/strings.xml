@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GridView_Practice</string>
+    <string name="txt_beer_name">Bia 333</string>
+    <string name="txt_back">Back</string>
+</resources>

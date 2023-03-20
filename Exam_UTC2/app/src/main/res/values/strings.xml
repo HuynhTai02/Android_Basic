@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EXAM LẬP TRÌNH DI ĐỘNG</string>
+    <string name="txt_b_n_c_n_u_i_g">BẠN CẦN ƯU ĐÃI GÌ?</string>
+    <string name="txt_xem_t_t_c">Xem tất cả</string>
+    <string name="txt_h_m_nay_n_g">HÔM NAY ĂN GÌ?</string>
+    <string name="txt_b_p_nh_x_qu_ng">Bếp nhà Xứ Quảng</string>
+    <string name="txt__4_4">4.4</string>
+    <string name="txt_100">100+</string>
+    <string name="txt__16_tr_n_cao_v_n_p_a_kao_q1_tp_hcm">16 Trần Cao Văn, P.Đa Kao, Q1,Tp. HCM</string>
+    <string name="txt_seoul_garden">Seoul Garden</string>
+    <string name="txt_4_0">4.0</string>
+    <string name="txt_star">*</string>
+    <string name="txt_11_su_van_hanh_p_12_q_10_tp_hcm">11 Su Van Hanh, P.12, Q.10,Tp.Hcm</string>
+    <string name="txt_c_m_s_n">Cơm Sườn</string>
+    <string name="lau">Lẩu Seoul</string>
+</resources>
