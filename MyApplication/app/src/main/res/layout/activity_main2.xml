@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/bt_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:autofillHints="name"
+        android:gravity="center"
+        android:hint="@string/txt_enter_number_phone"
+        android:inputType="phone"
+        android:textSize="30sp" />
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bt_dial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_dial"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/bt_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#2196F3"
+            android:text="@string/txt_call"
+            android:textSize="16sp" />
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/imvPhoto"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/btCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_capture_photo"
+        android:textSize="16sp" />
+</LinearLayout>

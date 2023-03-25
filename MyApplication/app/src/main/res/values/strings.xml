@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Act_Intent_Ex_Utc2</string>
+    <string name="enter_number">Enter number</string>
+    <string name="txt_fourth_activity">FOURTH ACTIVITY</string>
+    <string name="txt_100">100</string>
+    <string name="txt_compute">COMPUTE</string>
+    <string name="txt_ketqua">Answer Back</string>
+    <string name="txt_enter_number_phone">Enter Number Phone</string>
+    <string name="txt_dial">DIAL</string>
+    <string name="txt_call">CALL</string>
+    <string name="txt_capture_photo">Capture Photo</string>
+</resources>
