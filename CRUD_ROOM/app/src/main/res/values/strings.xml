@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CRUD_ROOM</string>
+    <string name="txt_enter_student_name">Enter Student Name</string>
+    <string name="txt_enter_student_address">Enter Address</string>
+    <string name="txt_insert_student">Insert Student</string>
+    <string name="txt_edit">edit</string>
+    <string name="txt_delete">delete</string>
+    <string name="txt_update">update student</string>
+    <string name="txt_delete_all_student">Delete All Student</string>
+</resources>
