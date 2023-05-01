@@ -24,16 +24,19 @@ public class MainActivity extends AppCompatActivity {
     private void initViews() {
         MapFragment mapFragment = (MapFragment) getFragmentManager()
                 .findFragmentById(R.id.mapFragment);
+
+        //Phương thức dùng để lấy đối tượng GoogleMap để hiển thị bản đồ trên app
         mapFragment.getMapAsync(new OnMapReadyCallback() {
             @Override
             public void onMapReady(@NonNull GoogleMap googleMap) {
+                //Thực hiện việc lưu trữ và "set" giá trị GoogleMap đã lấy được vào đối tượng MapManager
                 MapManager.getInstance().setMap(googleMap);
+                //Khởi tạo và thiết lập bản đồ
                 MapManager.getInstance().initMap();
             }
         });
 
-        if (checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION)
-                != PackageManager.PERMISSION_GRANTED) {
+        if (checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             requestPermissions(new String[]{
                     Manifest.permission.ACCESS_FINE_LOCATION
             }, 101);
