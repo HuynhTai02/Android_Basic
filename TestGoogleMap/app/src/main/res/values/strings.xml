@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">TestGoogleMap</string>
     <string name="KEY_API_MAP">AIzaSyDd4HpSXmX333Dn7stA4TlyrMpgT8Iq_bY</string>
+
+    <string name="txt_dinh_doc_lap">Dinh Độc Lập</string>
+    <string name="txt_dinh_doc_lap_description">Dinh Độc Lập là một tòa dinh thự tại Thành phố Hồ Chí Minh, từng là nơi ở và làm việc của Tổng thống Việt Nam Cộng hòa trước Sự kiện 30 tháng 4 năm 1975. Hiện nay, dinh đã được Chính phủ Việt Nam xếp hạng là di tích quốc gia đặc biệt.</string>
+    <string name="txt_dinh_doc_lap_address">Phường Bến Thành, Quận 1, Thành phố Hồ Chí Minh</string>
+
+    <string name="txt_bitexco">Bitexco Financial Tower</string>
+    <string name="txt_bitexco_description">Bitexco Financial Tower là một tòa nhà chọc trời ở Thành phố Hồ Chí Minh, Việt Nam. Khi hoàn thành vào năm 2010, nó đã trở thành tòa nhà cao nhất Việt Nam và giữ nguyên trạng này cho đến tháng 1 năm 2011, khi nó bị Keangnam Hanoi Landmark Tower vượt mặt.</string>
+    <string name="txt_bitexco_address">2 Hải Triều, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh 700000</string>
+
+    <string name="txt_zoo">Thảo Cầm Viên Sài Gòn</string>
+    <string name="txt_zoo_description">Thảo Cầm Viên Sài Gòn (cũng còn được gọi là Sở Thú) là công viên bảo tồn động vật - thực vật ở Thành phố Hồ Chí Minh, Việt Nam. Đây là vườn thú lâu đời đứng hàng thứ tám trên thế giới.Cho đến nay, Thảo Cầm Viên Sài Gòn đang nuôi dưỡng hơn 1.300 động vật thuộc 125 loài, trong đó có nhiều loại thuộc loại quý hiếm như: trĩ sao, chà vá, vượn má vàng, hươu vàng, báo lửa, báo gấm... Tại đây cũng có hơn 2.500 cây xanh với hơn 900 loài thực vật được bảo tồn.</string>
+    <string name="txt_zoo_address"> 2 Nguyễn Bỉnh Khiêm, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh 700000</string>
 </resources>
